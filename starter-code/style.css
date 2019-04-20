@@ -1,0 +1,81 @@
+body {
+  color: #606060;
+}
+
+
+/* sections styles -------------------------------------------------------------- */
+.widgets {
+  padding: 40px 0px;
+  background: #ed564b;
+  border-top: 5px solid #f96b61;
+  border-bottom: 5px solid #f96b61;
+}
+
+.widget {
+    color: #fff;
+    text-align: center;
+}
+
+.widget span i {
+  font-size: 4em;
+  margin-bottom: 10px;
+}
+
+#projects, #articles {
+  padding: 20px 0;
+}
+
+#bottom {
+  padding: 20px 0px 40px 0px;
+  background: #3b3b3b;
+  border-top: 5px solid #ed564b;
+  color: #aaa;
+}
+
+/* bottom-links styles ------------------------------------------------------------ */
+.bottom-widgets ul li {
+  background: #3b3b3b;
+  color: #aaa;
+  border: none;
+  border-top: 1px dotted rgba(255, 255, 255, .2);
+  border-bottom: 1px dotted rgba(255, 255, 255, .2);
+}
+
+.bottom-widgets ul li:first-child {
+  border-top: none;
+}
+
+.bottom-widgets ul li a {
+  color: #aaa;
+}
+
+
+
+#articles h3 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+
+#projects h3 {
+  text-align: center;
+  color: #000;
+  font-size: 14px;
+}
+
+.section-subtitle {
+  color: #aaa;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* footer styles  --------------------------------------------------------------- */
+.site-footer {
+  padding: 10px 0px;
+  background: #292929;
+  color: #eee;
+  font-size: 12px;
+}
+
+.site-footer a {
+  color: #eee;
+}
